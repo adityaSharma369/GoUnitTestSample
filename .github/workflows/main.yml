@@ -34,4 +34,9 @@ jobs:
 #       run: sudo rm -f ./.git/index.lock
     - name: run test cases
       run: go test ./...
+    - name: run test cases
+      run: |
+           go test -cover -coverprofile=c.out
+           go tool
+           cover -html=c.out -o coverage.html
 
