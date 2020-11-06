@@ -33,6 +33,6 @@ jobs:
 #     - name: removing lock
 #       run: sudo rm -f ./.git/index.lock
     - name: run test cases
-      run: go test ...
+      run: go test ./...
     - name: run test cases
       run: Echo "test success"
