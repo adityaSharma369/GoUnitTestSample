@@ -16,7 +16,7 @@ Key benefits of unit tests:
 - Can help identify dead code
 - Provide a measure of confidence for management
 - Can sometimes find missed use cases
-- Define a contract
+- Define a contracts
 - Helps produce higher quality code
 
 There are costs associated with writing unit tests as well:
