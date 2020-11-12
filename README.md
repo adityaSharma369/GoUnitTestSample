@@ -21,7 +21,7 @@ Key benefits of unit tests:
 
 There are costs associated with writing unit tests as well:
 
-- Time and effort to write and maintain
+- Time and effort to write and maintain,
 - False sense of security (poor coverage, duplicate tests, testing the wrong thing, poorly written tests)
 
 ## Writing go unit test
